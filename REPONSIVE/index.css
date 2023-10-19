@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  list-style: none;
+}
+
+.logo {
+  width: 100px;
+  height: 45px;
+  margin-top: 6px;
+  margin-left: 28px;
+}
+
+.header .menu {
+  width: 45px;
+  height: 45px;
+  margin-left: 5px;
+}
+
+.header .person {
+  width: 43px;
+  height: 43px;
+  margin-bottom: 6px;
+}
+
+.header .bag {
+  width: 45px;
+  height: 45px;
+}
+
+.header .icons {
+  margin-right: 10px;
+}
+
+.main_img {
+  width: 100%;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  /* font-size: 1.7vh; */
+}
+
+.original_pic {
+  width:90%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.original_pic a {
+  width: 18%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.original_pic img {
+  width: 100%;
+}
+
+.or_btn {
+  display: block;
+  background-color: #FEE716;
+  width: 130px;
+  padding: 5px 0;
+  color: black;
+  font-weight: 430;
+  margin: 20px auto;
+}
+
+.video {
+  width: 100%;
+}
+
+.bs_pic {
+  width: 100%;
+  margin: 40px auto;
+  display: inline-block;
+}
+
+.bs_pic .shoes {
+  width: 100px;
+}
+
+.bs_pic .arrow {
+  width: 60px;
+}
